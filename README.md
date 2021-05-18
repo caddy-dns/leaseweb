@@ -17,7 +17,7 @@ This package contains a DNS provider module for [Caddy](https://github.com/caddy
 ## Caddy module name
 
 ```
-dns.providers.provider_name
+dns.providers.leaseweb
 ```
 
 ## Config examples
@@ -50,6 +50,6 @@ or with the Caddyfile:
 ```
 # one site
 tls {
-	dns provider_name ...
+	dns leaseweb ...
 }
 ```
