@@ -27,7 +27,7 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 // Provision sets up the module. Implements caddy.Provisioner.
 func (p *Provider) Provision(ctx caddy.Context) error {
 	p.Provider.APIKey = caddy.NewReplacer().ReplaceAll(p.Provider.APIKey, "")
-	return fmt.Errorf("TODO: not implemented")
+	return nil
 }
 
 // TODO: This is just an example. Update accordingly.
