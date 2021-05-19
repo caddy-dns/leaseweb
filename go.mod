@@ -4,5 +4,5 @@ go 1.16
 
 require (
 	github.com/caddyserver/caddy/v2 v2.4.0
-	github.com/libdns/leaseweb v0.1.0
+	github.com/libdns/leaseweb v0.2.1
 )
